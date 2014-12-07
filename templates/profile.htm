@@ -1,0 +1,19 @@
+<div id="member">
+
+
+    <h1><%= name %> Profile</h1>
+
+    <form >
+        <div class="input-group gap">
+            <span class="input-group-addon font"> Name  </span>
+            <input id="name" class="form-control" type="text" placeholder="Name" value="<%= name %>" />
+        </div>
+        <div class="input-group gap">
+            <span class="input-group-addon font">Age </span>
+            <input class="form-control" type="text" id="age" placeholder="Age" value="<%= age %>" />
+        </div>
+        <button  id="updateBtn" class="btn btn-info button">Update
+            <i class="fa fa-spinner fa-spin hides"></i>
+        </button>
+    </form>
+</div>
